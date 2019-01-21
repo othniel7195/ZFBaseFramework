@@ -1,0 +1,22 @@
+{
+  "name": "ZFBaseFramework",
+  "version": "0.1.0",
+  "summary": "A short description of ZFBaseFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/478043385@qq.com/ZFBaseFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "478043385@qq.com": "478043385@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/478043385@qq.com/ZFBaseFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZFBaseFramework/Classes/**/*"
+}

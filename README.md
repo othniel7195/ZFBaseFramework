@@ -1,6 +1,4 @@
 # ZFBaseFramework
-
-[![CI Status](https://img.shields.io/travis/478043385@qq.com/ZFBaseFramework.svg?style=flat)](https://travis-ci.org/478043385@qq.com/ZFBaseFramework)
 [![Version](https://img.shields.io/cocoapods/v/ZFBaseFramework.svg?style=flat)](https://cocoapods.org/pods/ZFBaseFramework)
 [![License](https://img.shields.io/cocoapods/l/ZFBaseFramework.svg?style=flat)](https://cocoapods.org/pods/ZFBaseFramework)
 [![Platform](https://img.shields.io/cocoapods/p/ZFBaseFramework.svg?style=flat)](https://cocoapods.org/pods/ZFBaseFramework)
@@ -22,7 +20,7 @@ pod 'ZFBaseFramework'
 
 ## Author
 
-478043385@qq.com, 478043385@qq.com
+zhaofeng, zhaofeng7195@yeah.net
 
 ## License
 

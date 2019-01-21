@@ -1,6 +1,9 @@
+source 'https://github.com/othniel7195/ZFBaseFrameworkSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
 use_frameworks!
 
-platform :ios, '8.0'
+platform :ios, '9.0'
 
 target 'ZFBaseFramework_Example' do
   pod 'ZFBaseFramework', :path => '../'
