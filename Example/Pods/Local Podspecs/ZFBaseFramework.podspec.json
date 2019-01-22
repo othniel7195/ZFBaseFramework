@@ -1,22 +1,44 @@
 {
   "name": "ZFBaseFramework",
   "version": "0.1.0",
-  "summary": "A short description of ZFBaseFramework.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/478043385@qq.com/ZFBaseFramework",
+  "summary": "个人BaseFramework",
+  "description": "个人基础库，个人常用的类，有一些Category，UI，Foundation等",
+  "homepage": "https://github.com/othniel7195/ZFBaseFramework",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "478043385@qq.com": "478043385@qq.com"
+    "zhaofeng": "zhaofeng7195@yeah.net"
   },
   "source": {
-    "git": "https://github.com/478043385@qq.com/ZFBaseFramework.git",
+    "git": "https://github.com/othniel7195/ZFBaseFramework.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "ZFBaseFramework/Classes/**/*"
+  "subspecs": [
+    {
+      "name": "ZFCategoryFramework",
+      "source_files": "ZFBaseFramework/Classes/ZFCategoryFramework/**/*"
+    },
+    {
+      "name": "ZFFoundationFramework",
+      "source_files": "ZFBaseFramework/Classes/ZFFoundationFramework/**/*"
+    },
+    {
+      "name": "ZFUISegmentBar",
+      "source_files": "ZFBaseFramework/Classes/ZFUISegmentBar/**/*",
+      "dependencies": {
+        "ZFBaseFramework/ZFCategoryFramework": [
+
+        ]
+      }
+    },
+    {
+      "name": "ZFDownLoaderFramework",
+      "source_files": "ZFBaseFramework/Classes/ZFDownLoaderFramework/**/*"
+    }
+  ]
 }

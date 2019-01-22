@@ -1,5 +1,14 @@
 PODS:
-  - ZFBaseFramework (0.1.0)
+  - ZFBaseFramework (0.1.0):
+    - ZFBaseFramework/ZFCategoryFramework (= 0.1.0)
+    - ZFBaseFramework/ZFDownLoaderFramework (= 0.1.0)
+    - ZFBaseFramework/ZFFoundationFramework (= 0.1.0)
+    - ZFBaseFramework/ZFUISegmentBar (= 0.1.0)
+  - ZFBaseFramework/ZFCategoryFramework (0.1.0)
+  - ZFBaseFramework/ZFDownLoaderFramework (0.1.0)
+  - ZFBaseFramework/ZFFoundationFramework (0.1.0)
+  - ZFBaseFramework/ZFUISegmentBar (0.1.0):
+    - ZFBaseFramework/ZFCategoryFramework
 
 DEPENDENCIES:
   - ZFBaseFramework (from `../`)
@@ -9,7 +18,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZFBaseFramework: b287ddd9c822f60fcfc237e03f626bce028f11c5
+  ZFBaseFramework: 36489c30dd36af0d191729ddc97134c878d40a01
 
 PODFILE CHECKSUM: 5cdb2399ddeb84b1db6c638ae9343aac3f7d75fd
 

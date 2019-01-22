@@ -44,6 +44,12 @@ Pod::Spec.new do |s|
     uisb.source_files = 'ZFBaseFramework/Classes/ZFUISegmentBar/**/*'
     uisb.dependency 'ZFBaseFramework/ZFCategoryFramework'
   end
+
+  s.subspec 'ZFDownLoaderFramework' do |dl|
+    dl.source_files = 'ZFBaseFramework/Classes/ZFDownLoaderFramework/**/*'
+    dl.dependency 'ZFBaseFramework/ZFCategoryFramework'
+    dl.dependency 'ZFBaseFramework/ZFFoundationFramework'
+  end
   
   # s.resource_bundles = {
   #   'ZFBaseFramework' => ['ZFBaseFramework/Assets/*.png']

@@ -44,7 +44,20 @@
 
 - (void)updateSegmentConfig:(void (^)(ZFUISegmentBarConfig * _Nonnull))config
 {
+    if(config){
+        config(self.config);
+    }
     
+    
+    self.backgroundColor = self.config.segmentBarBackgroundColor;
+    self.indicatorView.backgroundColor = self.config.indicatorColor;
+    for (UIButton *btn in self.itemBtns) {
+        [btn setTitleColor:self.config.itemNormalColor forState:UIControlStateNormal];
+        [btn setTitleColor:self.config.itemSelectedColor forState:UIControlStateSelected];
+        btn.titleLabel.font = self.config.itemFont;
+    }
+    
+    self.items = self.config.itemDatas;
 }
 
 - (void)setSelectedIndex:(NSInteger)selectedIndex
@@ -58,6 +71,16 @@
 
 - (void)setItems:(NSArray<NSString *> *)items
 {
+    if (!items){
+        [self setNeedsLayout];
+        [self layoutIfNeeded];
+        return;
+    }
+    if (items.count == 0){
+        [self setNeedsLayout];
+        [self layoutIfNeeded];
+        return;
+    }
     //设置数据源
     _items = items;
     

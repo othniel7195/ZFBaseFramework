@@ -13,6 +13,7 @@
 #import "CALayer+ZFPauseAimate.h"
 #import "UIImage+ZFImage.h"
 #import "UIView+ZFLayout.h"
+#import "ZFDownLoader.h"
 #import "ZFDeviceInfo.h"
 #import "ZFUISegmentBar.h"
 #import "ZFUISegmentBarConfig.h"
