@@ -38,7 +38,15 @@
     },
     {
       "name": "ZFDownLoaderFramework",
-      "source_files": "ZFBaseFramework/Classes/ZFDownLoaderFramework/**/*"
+      "source_files": "ZFBaseFramework/Classes/ZFDownLoaderFramework/**/*",
+      "dependencies": {
+        "ZFBaseFramework/ZFCategoryFramework": [
+
+        ],
+        "ZFBaseFramework/ZFFoundationFramework": [
+
+        ]
+      }
     }
   ]
 }
