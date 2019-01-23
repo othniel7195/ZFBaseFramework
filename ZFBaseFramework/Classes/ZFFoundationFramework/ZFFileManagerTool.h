@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)moveFile:(NSString *)fromPath toPath:(NSString *)toPath;
 + (void)removeFileAtPath:(NSString *)filePath;
 + (NSString *)cachePath;
++ (NSString *)tmpPath;
 @end
 
 NS_ASSUME_NONNULL_END

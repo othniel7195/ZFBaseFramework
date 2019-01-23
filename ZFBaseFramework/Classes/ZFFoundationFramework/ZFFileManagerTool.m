@@ -46,4 +46,8 @@
    return NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES).firstObject;
 }
 
++ (NSString *)tmpPath
+{
+    return NSTemporaryDirectory();
+}
 @end
