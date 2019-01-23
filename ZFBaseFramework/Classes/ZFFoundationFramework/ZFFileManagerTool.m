@@ -41,4 +41,9 @@
     [[NSFileManager defaultManager] removeItemAtPath:filePath error:nil];
 }
 
++ (NSString *)cachePath
+{
+   return NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES).firstObject;
+}
+
 @end
