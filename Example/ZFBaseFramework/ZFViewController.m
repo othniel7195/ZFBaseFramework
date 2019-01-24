@@ -7,9 +7,13 @@
 //
 
 #import "ZFViewController.h"
+#import "ZFDownLoader.h"
 
 @interface ZFViewController ()
-
+{
+    
+}
+@property(nonatomic, strong)ZFDownLoader *downLoader;
 @end
 
 @implementation ZFViewController
@@ -17,7 +21,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    NSURL *url = [NSURL URLWithString:@"http://hkvps.webnoteeditor.com/download/silverUpload.rar"];
+    self.downLoader = [[ZFDownLoader alloc] init];
+    [self.downLoader downLoadWithURL:url
+                   downLoadInfo:^(long long fileSize) {
+                       
+                   } downLoadSuccess:^(NSString * _Nonnull cachePath) {
+                       
+                   } downLoadFail:^{
+                       
+                   }];
 }
 
 - (void)didReceiveMemoryWarning

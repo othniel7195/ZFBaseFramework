@@ -14,8 +14,6 @@ typedef NS_ENUM(NSUInteger, ZFDownLoaderState) {
     eZFDownLoaderStatePause,
     //正在下载
     eZFDownLoaderStateDowning,
-    //取消下载
-    eZFDownLoaderStateCancel,
     //下载成功
     eZFDownLoaderStateSuccess,
     //下载失败

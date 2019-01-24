@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "1010"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "ZFBaseFramework_Example.app"
-               BlueprintName = "ZFBaseFramework_Example"
-               ReferencedContainer = "container:ZFBaseFramework.xcodeproj">
+               BlueprintIdentifier = "2F8EB6CF81DE7B3FD1F995A4D1FA9950"
+               BuildableName = "Pods_ZFBaseFramework_Tests.framework"
+               BlueprintName = "Pods-ZFBaseFramework_Tests"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -26,29 +26,9 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      codeCoverageEnabled = "YES"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "ZFBaseFramework_Tests.xctest"
-               BlueprintName = "ZFBaseFramework_Tests"
-               ReferencedContainer = "container:ZFBaseFramework.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "ZFBaseFramework_Example.app"
-            BlueprintName = "ZFBaseFramework_Example"
-            ReferencedContainer = "container:ZFBaseFramework.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -62,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "ZFBaseFramework_Example.app"
-            BlueprintName = "ZFBaseFramework_Example"
-            ReferencedContainer = "container:ZFBaseFramework.xcodeproj">
+            BlueprintIdentifier = "2F8EB6CF81DE7B3FD1F995A4D1FA9950"
+            BuildableName = "Pods_ZFBaseFramework_Tests.framework"
+            BlueprintName = "Pods-ZFBaseFramework_Tests"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -81,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "ZFBaseFramework_Example.app"
-            BlueprintName = "ZFBaseFramework_Example"
-            ReferencedContainer = "container:ZFBaseFramework.xcodeproj">
+            BlueprintIdentifier = "2F8EB6CF81DE7B3FD1F995A4D1FA9950"
+            BuildableName = "Pods_ZFBaseFramework_Tests.framework"
+            BlueprintName = "Pods-ZFBaseFramework_Tests"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
