@@ -15,6 +15,7 @@
     long long _totalSize;
 }
 @property(nonatomic, copy)ZFDownLoadInfo dloadInfo;
+@property(nonatomic, copy)ZFDownLoadStateChange dloadStateChange;
 @property(nonatomic, copy)ZFDownLoadSuccess dloadSuccess;
 @property(nonatomic, copy)ZFDownLoadFail dlFail;
 @property(nonatomic, copy)NSString *downLoadCachePath;
@@ -24,13 +25,19 @@
 @property(nonatomic, strong)NSOutputStream *outputSream;
 //session强引用  session 和task 1：1  
 @property(nonatomic, weak) NSURLSessionDataTask *task;
+
 @end
 
 @implementation ZFDownLoader
 
-- (void)downLoadWithURL:(NSURL *)url downLoadInfo:(ZFDownLoadInfo)downLoadInfo downLoadSuccess:(ZFDownLoadSuccess)success downLoadFail:(ZFDownLoadFail)fail
+- (void)downLoadWithURL:(NSURL *)url
+           downLoadInfo:(ZFDownLoadInfo)downLoadInfo
+        downLoadStateChange:(ZFDownLoadStateChange)stateChange
+        downLoadSuccess:(ZFDownLoadSuccess)success
+           downLoadFail:(ZFDownLoadFail)fail
 {
     self.dloadInfo = downLoadInfo;
+    self.dloadStateChange = stateChange;
     self.dloadSuccess = success;
     self.dlFail = fail;
     [self downLoadWithURL:url];
@@ -48,7 +55,7 @@
     // 文件的位置, 文件的大小
     if ([ZFFileManagerTool isFileExists:self.downLoadCachePath]) {
         if (self.dloadInfo) {
-            self.dloadInfo([ZFFileManagerTool fileTotalSize:self.downLoadCachePath]);
+            self.dloadInfo([ZFFileManagerTool fileTotalSize:self.downLoadCachePath],1.f);
         }
         self.state = eZFDownLoaderStateSuccess;
         if (self.dloadSuccess) {
@@ -86,7 +93,7 @@
 {
     //创建请求信息
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:0];
-    [request setValue:[NSString stringWithFormat:@"btyes=%lld-",offset] forHTTPHeaderField:@"Range"];
+    [request setValue:[NSString stringWithFormat:@"bytes=%lld-",offset] forHTTPHeaderField:@"Range"];
     
     //发起请求
     NSURLSessionDataTask *task = [self.session dataTaskWithRequest:request];
@@ -122,6 +129,9 @@
 - (void)setState:(ZFDownLoaderState)state
 {
     _state = state;
+    if (self.dloadStateChange) {
+        self.dloadStateChange(state);
+    }
 }
 
 - (NSURLSession *)session
@@ -130,6 +140,15 @@
         _session = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration] delegate:self delegateQueue:[NSOperationQueue mainQueue]];
     }
     return _session;
+}
+
+- (void)setProgress:(CGFloat)progress
+{
+    _progress = progress;
+    if (self.dloadInfo) {
+        self.dloadInfo(_totalSize, progress);
+    }
+   
 }
 
 #pragma mark -- NSURLSession Delegate
@@ -146,7 +165,7 @@
     }
     
     if (self.dloadInfo) {
-        self.dloadInfo(_totalSize);
+        self.dloadInfo(_totalSize,0);
     }
     
     //下载完成
@@ -174,6 +193,11 @@
     }
     
     
+    //打开输出流
+    self.outputSream = [NSOutputStream outputStreamToFileAtPath:self.downLoadTmpPath append:YES];
+    [self.outputSream open];
+    
+    self.state = eZFDownLoaderStateDowning;
     
     completionHandler(NSURLSessionResponseAllow);
     
@@ -182,13 +206,31 @@
 
 - (void)URLSession:(NSURLSession *)session dataTask:(NSURLSessionDataTask *)dataTask didReceiveData:(NSData *)data
 {
-    
+    _tmpSize += data.length;
+    self.progress = (_tmpSize * 1.0)/_totalSize;
+    [self.outputSream write:data.bytes maxLength:data.length];
 }
 
 - (void)URLSession:(NSURLSession *)session task:(NSURLSessionTask *)task
 didCompleteWithError:(nullable NSError *)error
 {
-    
+    [self.outputSream close];
+    self.outputSream = nil;
+    if (error == nil) {
+        //下载完成 把tmp 移动到cache
+        [ZFFileManagerTool moveFile:self.downLoadTmpPath toPath:self.downLoadCachePath];
+        self.state = eZFDownLoaderStateSuccess;
+        if (self.dloadSuccess) {
+            self.dloadSuccess(self.downLoadCachePath);
+        }
+        
+    }else{
+        //有错误
+        self.state = eZFDownLoaderStateFail;
+        if (self.dlFail) {
+            self.dlFail();
+        }
+    }
 }
 
 - (void)URLSession:(NSURLSession *)session didReceiveChallenge:(NSURLAuthenticationChallenge *)challenge completionHandler:(void (^)(NSURLSessionAuthChallengeDisposition, NSURLCredential * _Nullable))completionHandler

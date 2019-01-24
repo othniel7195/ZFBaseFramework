@@ -21,16 +21,21 @@ typedef NS_ENUM(NSUInteger, ZFDownLoaderState) {
 };
 
 NS_ASSUME_NONNULL_BEGIN
-
-typedef void(^ZFDownLoadInfo)(long long fileSize);
+//获取文件下载进度
+typedef void(^ZFDownLoadInfo)(long long fileSize,float progress);
+//下载成功返回文件路径
 typedef void(^ZFDownLoadSuccess)(NSString *cachePath);
+//下载失败
 typedef void(^ZFDownLoadFail)(void);
+//监听状态改变
+typedef void(^ZFDownLoadStateChange)(ZFDownLoaderState state);
 
 @interface ZFDownLoader : NSObject
 
 //下载
 - (void)downLoadWithURL:(NSURL *)url
            downLoadInfo:(ZFDownLoadInfo)downLoadInfo
+       downLoadStateChange:(ZFDownLoadStateChange)stateChange
         downLoadSuccess:(ZFDownLoadSuccess)success
            downLoadFail:(ZFDownLoadFail)fail;
 

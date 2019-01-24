@@ -1,0 +1,57 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  desc "ZFBaseFramework 自动提交 打组件包 提交索引文件"
+lane :ManagerBaseFramework do |options|
+
+tagName = options[:tag]
+message = options[:m]
+
+#pod install
+cocoapods(
+clean: true,
+podfile: "./Example/Podfile",
+use_bundle_exec: false
+)
+
+#git add .
+git_add(path: ".")
+#git commit -m 'xxxx'
+git_commit(path: ".", message: message)
+#git push origin master
+push_to_git_remote
+
+#git tag 0.0.1
+if git_tag_exists(tag: tagName)
+UI.message("tag #{tagName} is exist 🚀")
+remove_tag(tag: tagName)
+end
+
+add_git_tag(
+tag: tagName
+)
+#git push --tags
+push_git_tags
+
+#pod spec lint
+pod_lib_lint(allow_warnings: true,verbose: true)
+#pod repo push xxx    xxx.podspec
+#pod_push(path: "#{targetName}.podspec", repo: "ZFBaseFramework")
+pod_push(path: "ZFBaseFramework.podspec", repo: "ZFBaseFramework")
+  end
+end

@@ -15,6 +15,7 @@
 #import "UIImage+ZFImage.h"
 #import "UIView+ZFLayout.h"
 #import "ZFDownLoader.h"
+#import "ZFDownLoaderManager.h"
 #import "ZFDeviceInfo.h"
 #import "ZFFileManagerTool.h"
 #import "ZFUISegmentBar.h"
