@@ -24,6 +24,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		D54237E821FB2B6B0049C358 /* ZFPlayerTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D54237E721FB2B6B0049C358 /* ZFPlayerTestViewController.m */; };
 		D54A61BA21F9958600E17BBA /* ZFDownLoadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D54A61B921F9958600E17BBA /* ZFDownLoadTests.m */; };
 /* End PBXBuildFile section */
 
@@ -58,7 +59,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6BA7A1B9618137D8B001D3A7 /* ZFBaseFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZFBaseFramework.podspec; path = ../ZFBaseFramework.podspec; sourceTree = "<group>"; };
+		6BA7A1B9618137D8B001D3A7 /* ZFBaseFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZFBaseFramework.podspec; path = ../ZFBaseFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79F5BABC37CEAC1F3C361EE6 /* Pods_ZFBaseFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZFBaseFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,6 +67,8 @@
 		9F687A97DB6CC6E58117B846 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CACE377C543D97D4E738B06C /* Pods-ZFBaseFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFBaseFramework_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZFBaseFramework_Example/Pods-ZFBaseFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CD46896789CB553ACD5ABABB /* Pods_ZFBaseFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZFBaseFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D54237E621FB2B6B0049C358 /* ZFPlayerTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFPlayerTestViewController.h; sourceTree = "<group>"; };
+		D54237E721FB2B6B0049C358 /* ZFPlayerTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerTestViewController.m; sourceTree = "<group>"; };
 		D54A61B921F9958600E17BBA /* ZFDownLoadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFDownLoadTests.m; sourceTree = "<group>"; };
 		E21196E5C867EC2498F186CF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E877B57797B892F020C965D8 /* Pods-ZFBaseFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFBaseFramework_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZFBaseFramework_Tests/Pods-ZFBaseFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +142,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ZFViewController.h */,
 				6003F5A6195388D20070C39A /* ZFViewController.m */,
+				D54237E621FB2B6B0049C358 /* ZFPlayerTestViewController.h */,
+				D54237E721FB2B6B0049C358 /* ZFPlayerTestViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -361,6 +366,7 @@
 				6003F59E195388D20070C39A /* ZFAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZFViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				D54237E821FB2B6B0049C358 /* ZFPlayerTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,10 +497,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZFBaseFramework/ZFBaseFramework-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "ZFBaseFramework/ZFBaseFramework-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -506,10 +514,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZFBaseFramework/ZFBaseFramework-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "ZFBaseFramework/ZFBaseFramework-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -38,6 +38,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'ZFFoundationFramework' do |ff|
     ff.source_files = 'ZFBaseFramework/Classes/ZFFoundationFramework/**/*'
+    ff.frameworks = 'CoreServices'
   end
 
   s.subspec 'ZFUISegmentBar' do |uisb|
@@ -49,6 +50,11 @@ Pod::Spec.new do |s|
     dl.source_files = 'ZFBaseFramework/Classes/ZFDownLoaderFramework/**/*'
     dl.dependency 'ZFBaseFramework/ZFCategoryFramework'
     dl.dependency 'ZFBaseFramework/ZFFoundationFramework'
+  end
+  
+  s.subspec 'ZFAudioPlayerFramework' do |ap|
+      ap.source_files = 'ZFBaseFramework/Classes/ZFAudioPlayerFramework/**/*'
+      ap.frameworks = 'AVFoundation'
   end
   
   # s.resource_bundles = {

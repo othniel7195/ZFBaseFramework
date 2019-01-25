@@ -7,35 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00DC7C2D5A9E5A342C334FA06468D75F /* ZFDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EE4CA616F358E688E4E671D31B0519 /* ZFDeviceInfo.m */; };
-		14DD495859252F13A1C064A56F22B155 /* UIView+ZFLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 39B516BE61959E461E5487978D6E1A4D /* UIView+ZFLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16ED89C06203B51780E0970389DE22FE /* UIImage+ZFImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E56734C77AD673A67574BADE7969B5 /* UIImage+ZFImage.m */; };
-		1775F75DFD2698D67641614CBA324206 /* ZFBaseFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1394D429BD826B59F32522A34741865 /* ZFBaseFramework-dummy.m */; };
-		2018117C5B01C20380880DBE2AF1B0AA /* ZFDownLoaderManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BE76ED0BC33698A60519DE64CC76C3FC /* ZFDownLoaderManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27271A169F6BBD7A5D2874B68100F951 /* ZFUISegmentBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 025F3C0DE64EB327EE1B3CC74F142F58 /* ZFUISegmentBarConfig.m */; };
-		2C23692EB913426F45C219AB0A1391A6 /* ZFDownLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 088860206ADC9524675DE26C7391734C /* ZFDownLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2DF449451CFF2E74FEF2A7D25B64E4FD /* ZFUISegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 507DAA29E029BCC9D86B891CD95E9DAD /* ZFUISegmentBar.m */; };
-		3833D12715E08CB16087F01DC7E172AA /* CALayer+ZFPauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5756777F56B368F68631AB3DE9DB73DC /* CALayer+ZFPauseAimate.m */; };
-		3B066BA4F4DBBE153809F5FB479CD125 /* ZFDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 13931AE645BBF70153FB58E9CA909428 /* ZFDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42803C6889B913B8454C801DB5CF318D /* ZFFileManagerTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F63BA06B380A26A59C358E77B2C1BEE /* ZFFileManagerTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		444A2FF52C4AFFAE09C08A23DB9F4B08 /* ZFDownLoaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFCEA39FA5C1AB0F8433E7FF4B6C02B /* ZFDownLoaderManager.m */; };
-		4D9AAC3C49D6AD3590213E95D7040325 /* UIView+ZFLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F71E367D7FF301CD365C2BE4D9A779B6 /* UIView+ZFLayout.m */; };
+		147B5F2184312C619DBEF834826036A1 /* ZFDownLoaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 729D13384A71F70A932F4C2A68D56C05 /* ZFDownLoaderManager.m */; };
+		16835FC93DEACFD279B91EE328E73989 /* UIView+ZFLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FD951D1A37E139B00B64A6B3C2D4978 /* UIView+ZFLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18B0C9A1C91091D171E31A01203A052C /* ZFDownLoaderManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E0559F22C3FDF53B32E68E8FC31E2544 /* ZFDownLoaderManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2146A8326940A750D51DE657D3F9C9C7 /* ZFUISegmentBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8D179DC6432CFCDB03B29246AFDF7B /* ZFUISegmentBarConfig.m */; };
+		2C11578DEED768C5D03056EF77CB3A2F /* ZFDownLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D036D45881865EE4CE90741D3A0D6C5 /* ZFDownLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		331AF511F9E35A445CD11FF2B93950DB /* UIImage+ZFImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 25628D8F85808622ED97B15CB686781C /* UIImage+ZFImage.m */; };
+		3FB8CFC8330E1563ED799319A5425D76 /* ZFDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC60B2325199DF22FFFB8EA793F5471 /* ZFDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46B12FADC3A9F7E8178FC920F6742094 /* ZFFileManagerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF54419683206AACAB489AF2B28991E /* ZFFileManagerTool.m */; };
+		50379E6394DF6F9B2C36D21A63CFD5D6 /* ZFFileManagerTool.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFAB62DF74A8D9CAFB152FFF24B232F /* ZFFileManagerTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F8822AD0D14240465567593E2E4606E /* ZFAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 95142AEEDACA9944E75CCCD8D8FCFC84 /* ZFAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6239A9D807203918E521B4C1444DCF3D /* Pods-ZFBaseFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7C4356F216F88D66585E71844A4E9D2 /* Pods-ZFBaseFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67EDACA6028AE88F26F2AE1C3AE133BB /* ZFUISegmentBarConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EF9EC29CBCDE9C46EF01A881DD7B2AD /* ZFUISegmentBarConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		818C7A6F60EF36370E36D255E5B03031 /* CALayer+ZFPauseAimate.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2EC8DCC71EA109BF236D3AF10C0FAB /* CALayer+ZFPauseAimate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9049AEF549BBDCF12693F529E85F5A1A /* UIImage+ZFImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E0C694C49CD66539D090FDC63E4E128 /* UIImage+ZFImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B553EC36430DBFFCE1B279357E8E806 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		740FB5C8699DA4BF932CAE4DD8E78743 /* NSString+ZFTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C97C10837D08108CE8F57B62126C29 /* NSString+ZFTool.m */; };
+		847808B8DD5C0FC2D7B5B09E35CE81CD /* ZFUISegmentBarConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 513473F7DE046C0F96D360D99174C009 /* ZFUISegmentBarConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94F75FDA08B991DC44AAC6CDF2C63192 /* ZFBaseFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3990A1CD7911D3312923DE273541CACA /* ZFBaseFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A55DB0353AA2378E3126B2630059C7ED /* NSString+ZFTool.h in Headers */ = {isa = PBXBuildFile; fileRef = DC79A640BB2EB0407F89A59E609ECA73 /* NSString+ZFTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACBFE6FE7B7FACC63899362236204BFA /* UIImage+ZFImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 1698BD49BB999AD4F5E9AB24D504F834 /* UIImage+ZFImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF6253637187657A9EA6D5258952C26D /* ZFUISegmentBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 1370D4641A1C1B646F028A61F26819E4 /* ZFUISegmentBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0A1B963C1667FFF03B96EFA43D210D7 /* ZFDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = D66F3C94A4338CD1AE66EA85A658DE60 /* ZFDownLoader.m */; };
 		B9EF15D0497D6EBB37F830C79D40921B /* Pods-ZFBaseFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B6B88BA0B07361CAC80F4C447C82BF /* Pods-ZFBaseFramework_Example-dummy.m */; };
-		C4CEF27ED4604B90A5713E4D63131C7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		CD6972F9AABEFFB4C43E9CAA133C7D04 /* NSString+ZFTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F4DDB5D3879AC2DC457D1AF29CF91D /* NSString+ZFTool.m */; };
+		C4CEF27ED4604B90A5713E4D63131C7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22CD430D564A173B7B225EC2864219A /* Foundation.framework */; };
 		CECBCC8676EA73553662FC8A96214F2C /* Pods-ZFBaseFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CDF740E431A969B54652187102CC76 /* Pods-ZFBaseFramework_Tests-dummy.m */; };
-		D12D376688E367740802195D0733CD9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		D426E00DF6B3825312AD3BDBD67FD504 /* ZFDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E08C9C5CAF60FD126A4216571896D747 /* ZFDownLoader.m */; };
-		E0E7EA1075FAC33E7D4FBD6AD24C5D17 /* ZFUISegmentBar.h in Headers */ = {isa = PBXBuildFile; fileRef = E637E22F66139960516E6038F28AFE23 /* ZFUISegmentBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D12D376688E367740802195D0733CD9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22CD430D564A173B7B225EC2864219A /* Foundation.framework */; };
+		D54237E321FB24350049C358 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D54237E221FB24350049C358 /* AVFoundation.framework */; };
+		D54237E521FB243D0049C358 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D54237E421FB243D0049C358 /* CoreServices.framework */; };
+		DB26C02BAE843B4EF851F2A0997FC3A5 /* ZFBaseFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D093BE790A48121692027E280A9DCA1 /* ZFBaseFramework-dummy.m */; };
+		DF7B0F6CD42FB8ED7EF1F97A58CC3693 /* ZFUISegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 144201999621F81EE7E813980D9E2E17 /* ZFUISegmentBar.m */; };
+		E1F064906D3A8F8F74320AC4874F0201 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22CD430D564A173B7B225EC2864219A /* Foundation.framework */; };
+		EA3667EF8A71A2D742792DC921953484 /* UIView+ZFLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EDB74CA0DF8C8253D8C3F3357D0A4 /* UIView+ZFLayout.m */; };
+		EAE6D5D2E39C18AFBCF8CD78C8F1D7FB /* CALayer+ZFPauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDC707148C70122A0A1E69B19737D22 /* CALayer+ZFPauseAimate.m */; };
+		EC5DF65D1E274C46C993BFCCBF50B353 /* CALayer+ZFPauseAimate.h in Headers */ = {isa = PBXBuildFile; fileRef = C265208964956361530FB3FC310987F3 /* CALayer+ZFPauseAimate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EEA832B8E51E36ABD3174DE47368B30A /* Pods-ZFBaseFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A9B9E5B6C4E529243A8A5F3573E0830 /* Pods-ZFBaseFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF2E10E1D9AD78BBBA3B8122AB0987B9 /* NSString+ZFTool.h in Headers */ = {isa = PBXBuildFile; fileRef = E6711E7DF8D085DCF883B7B0F7BEBE31 /* NSString+ZFTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F16A70C0DFC841E6C4ED711B0EFAD8EA /* ZFFileManagerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BB34A73A297F391813E6C7344CE721 /* ZFFileManagerTool.m */; };
-		F1E11A75AD8834D1FC547AD3F60B3CD7 /* ZFBaseFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F8C8588706460B519BB41C47126F11B /* ZFBaseFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7DF85BF08B6BD28FE0AC30681DFB3F5 /* ZFDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 99696E53EAB14F17139468C3C7AAC8A8 /* ZFDeviceInfo.m */; };
+		FCFB2D165A7778A9C9E17E7F4D6AA5EE /* ZFAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CFEE1EFC90B43D1207E13CA263C279 /* ZFAudioPlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,63 +60,78 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		025F3C0DE64EB327EE1B3CC74F142F58 /* ZFUISegmentBarConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFUISegmentBarConfig.m; path = ZFBaseFramework/Classes/ZFUISegmentBar/ZFUISegmentBarConfig.m; sourceTree = "<group>"; };
 		07506D543778355A030CBCB599A85809 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		088860206ADC9524675DE26C7391734C /* ZFDownLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFDownLoader.h; path = ZFBaseFramework/Classes/ZFDownLoaderFramework/ZFDownLoader.h; sourceTree = "<group>"; };
 		09FB3E8649F8E532C1BACCBCDEAC1D83 /* Pods-ZFBaseFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZFBaseFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0EF9EC29CBCDE9C46EF01A881DD7B2AD /* ZFUISegmentBarConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFUISegmentBarConfig.h; path = ZFBaseFramework/Classes/ZFUISegmentBar/ZFUISegmentBarConfig.h; sourceTree = "<group>"; };
-		0F8C8588706460B519BB41C47126F11B /* ZFBaseFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZFBaseFramework-umbrella.h"; sourceTree = "<group>"; };
-		135CDBABCC634ECBD20E8918D8CF929A /* ZFBaseFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZFBaseFramework.modulemap; sourceTree = "<group>"; };
-		13931AE645BBF70153FB58E9CA909428 /* ZFDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFDeviceInfo.h; path = ZFBaseFramework/Classes/ZFFoundationFramework/ZFDeviceInfo.h; sourceTree = "<group>"; };
+		1370D4641A1C1B646F028A61F26819E4 /* ZFUISegmentBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFUISegmentBar.h; path = ZFBaseFramework/Classes/ZFUISegmentBar/ZFUISegmentBar.h; sourceTree = "<group>"; };
+		141818C5E95131E3AF76501FF4068D68 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		144201999621F81EE7E813980D9E2E17 /* ZFUISegmentBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFUISegmentBar.m; path = ZFBaseFramework/Classes/ZFUISegmentBar/ZFUISegmentBar.m; sourceTree = "<group>"; };
 		153F1EC5AACCCA750319E7406D2D1533 /* Pods-ZFBaseFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZFBaseFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1DCDAE0EF8DDEE006F6B5EE525F58C42 /* ZFBaseFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZFBaseFramework.xcconfig; sourceTree = "<group>"; };
+		1698BD49BB999AD4F5E9AB24D504F834 /* UIImage+ZFImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ZFImage.h"; path = "ZFBaseFramework/Classes/ZFCategoryFramework/UIImage+ZFImage.h"; sourceTree = "<group>"; };
 		1F6B533EDE2EE0FB4197CF0A6F7BC061 /* Pods-ZFBaseFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZFBaseFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		25628D8F85808622ED97B15CB686781C /* UIImage+ZFImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ZFImage.m"; path = "ZFBaseFramework/Classes/ZFCategoryFramework/UIImage+ZFImage.m"; sourceTree = "<group>"; };
 		25DC7BC048356EBCDFCAF4CF8600420D /* Pods-ZFBaseFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZFBaseFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2911080129B5F7338167FC25AA7AE098 /* Pods-ZFBaseFramework_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZFBaseFramework_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2E831766CECD4339BD7B1BD154D7575E /* ZFBaseFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ZFBaseFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		333E5A7DF9E72C55B117C4A857A174AE /* Pods-ZFBaseFramework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZFBaseFramework_Example-frameworks.sh"; sourceTree = "<group>"; };
 		34824A94444361AEA24C24C0D78023E7 /* Pods-ZFBaseFramework_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZFBaseFramework_Example-resources.sh"; sourceTree = "<group>"; };
-		39B516BE61959E461E5487978D6E1A4D /* UIView+ZFLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ZFLayout.h"; path = "ZFBaseFramework/Classes/ZFCategoryFramework/UIView+ZFLayout.h"; sourceTree = "<group>"; };
-		3E0C694C49CD66539D090FDC63E4E128 /* UIImage+ZFImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ZFImage.h"; path = "ZFBaseFramework/Classes/ZFCategoryFramework/UIImage+ZFImage.h"; sourceTree = "<group>"; };
-		44F4DDB5D3879AC2DC457D1AF29CF91D /* NSString+ZFTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ZFTool.m"; path = "ZFBaseFramework/Classes/ZFCategoryFramework/NSString+ZFTool.m"; sourceTree = "<group>"; };
-		507DAA29E029BCC9D86B891CD95E9DAD /* ZFUISegmentBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFUISegmentBar.m; path = ZFBaseFramework/Classes/ZFUISegmentBar/ZFUISegmentBar.m; sourceTree = "<group>"; };
+		36D7B8117F16B30F67FA438EBAF45434 /* ZFBaseFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZFBaseFramework-prefix.pch"; sourceTree = "<group>"; };
+		3990A1CD7911D3312923DE273541CACA /* ZFBaseFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZFBaseFramework-umbrella.h"; sourceTree = "<group>"; };
+		3FF54419683206AACAB489AF2B28991E /* ZFFileManagerTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFFileManagerTool.m; path = ZFBaseFramework/Classes/ZFFoundationFramework/ZFFileManagerTool.m; sourceTree = "<group>"; };
+		4BDC707148C70122A0A1E69B19737D22 /* CALayer+ZFPauseAimate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+ZFPauseAimate.m"; path = "ZFBaseFramework/Classes/ZFCategoryFramework/CALayer+ZFPauseAimate.m"; sourceTree = "<group>"; };
+		513473F7DE046C0F96D360D99174C009 /* ZFUISegmentBarConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFUISegmentBarConfig.h; path = ZFBaseFramework/Classes/ZFUISegmentBar/ZFUISegmentBarConfig.h; sourceTree = "<group>"; };
 		5531BBAA41EEF21E7CA4DD0A860EA22C /* Pods-ZFBaseFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZFBaseFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5756777F56B368F68631AB3DE9DB73DC /* CALayer+ZFPauseAimate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+ZFPauseAimate.m"; path = "ZFBaseFramework/Classes/ZFCategoryFramework/CALayer+ZFPauseAimate.m"; sourceTree = "<group>"; };
 		59FFA51B3B3C58067D74819B463ED41E /* Pods-ZFBaseFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZFBaseFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5FA99996C06B5606A141E28AAF4401B2 /* ZFBaseFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZFBaseFramework.framework; path = ZFBaseFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D093BE790A48121692027E280A9DCA1 /* ZFBaseFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZFBaseFramework-dummy.m"; sourceTree = "<group>"; };
+		5FA99996C06B5606A141E28AAF4401B2 /* ZFBaseFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZFBaseFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60260A422D1595CADD0FCFA8BA00291C /* Pods-ZFBaseFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZFBaseFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		61EE4CA616F358E688E4E671D31B0519 /* ZFDeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFDeviceInfo.m; path = ZFBaseFramework/Classes/ZFFoundationFramework/ZFDeviceInfo.m; sourceTree = "<group>"; };
-		6615F5AEC0F8F475BDE4922D283D1167 /* Pods_ZFBaseFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZFBaseFramework_Example.framework; path = "Pods-ZFBaseFramework_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6615F5AEC0F8F475BDE4922D283D1167 /* Pods_ZFBaseFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZFBaseFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B9DF62CA7B78731CDB5A000EDB080BF /* Pods-ZFBaseFramework_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZFBaseFramework_Tests-resources.sh"; sourceTree = "<group>"; };
-		6F63BA06B380A26A59C358E77B2C1BEE /* ZFFileManagerTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFFileManagerTool.h; path = ZFBaseFramework/Classes/ZFFoundationFramework/ZFFileManagerTool.h; sourceTree = "<group>"; };
-		88DECFCD29BE6FF571E6AE7BDD4FC1A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6FD951D1A37E139B00B64A6B3C2D4978 /* UIView+ZFLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ZFLayout.h"; path = "ZFBaseFramework/Classes/ZFCategoryFramework/UIView+ZFLayout.h"; sourceTree = "<group>"; };
+		7039D19E7A97AD51E6C1271A9E335F48 /* ZFBaseFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZFBaseFramework.xcconfig; sourceTree = "<group>"; };
+		729D13384A71F70A932F4C2A68D56C05 /* ZFDownLoaderManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFDownLoaderManager.m; path = ZFBaseFramework/Classes/ZFDownLoaderFramework/ZFDownLoaderManager.m; sourceTree = "<group>"; };
+		7B4EDB74CA0DF8C8253D8C3F3357D0A4 /* UIView+ZFLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ZFLayout.m"; path = "ZFBaseFramework/Classes/ZFCategoryFramework/UIView+ZFLayout.m"; sourceTree = "<group>"; };
+		7D036D45881865EE4CE90741D3A0D6C5 /* ZFDownLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFDownLoader.h; path = ZFBaseFramework/Classes/ZFDownLoaderFramework/ZFDownLoader.h; sourceTree = "<group>"; };
+		80B89A6BA19662F9B31A12B8FBA6F107 /* ZFBaseFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZFBaseFramework.modulemap; sourceTree = "<group>"; };
 		8A9B9E5B6C4E529243A8A5F3573E0830 /* Pods-ZFBaseFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZFBaseFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		940935B9B7015E23D265113E2153ACA9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9EE160B9C35AF852DA14A28B0DD9FFE8 /* ZFBaseFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ZFBaseFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95142AEEDACA9944E75CCCD8D8FCFC84 /* ZFAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFAudioPlayer.h; path = ZFBaseFramework/Classes/ZFAudioPlayerFramework/ZFAudioPlayer.h; sourceTree = "<group>"; };
+		99696E53EAB14F17139468C3C7AAC8A8 /* ZFDeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFDeviceInfo.m; path = ZFBaseFramework/Classes/ZFFoundationFramework/ZFDeviceInfo.m; sourceTree = "<group>"; };
+		9D8D179DC6432CFCDB03B29246AFDF7B /* ZFUISegmentBarConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFUISegmentBarConfig.m; path = ZFBaseFramework/Classes/ZFUISegmentBar/ZFUISegmentBarConfig.m; sourceTree = "<group>"; };
 		A2B6B88BA0B07361CAC80F4C447C82BF /* Pods-ZFBaseFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZFBaseFramework_Example-dummy.m"; sourceTree = "<group>"; };
-		A3E56734C77AD673A67574BADE7969B5 /* UIImage+ZFImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ZFImage.m"; path = "ZFBaseFramework/Classes/ZFCategoryFramework/UIImage+ZFImage.m"; sourceTree = "<group>"; };
-		AA2EC8DCC71EA109BF236D3AF10C0FAB /* CALayer+ZFPauseAimate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+ZFPauseAimate.h"; path = "ZFBaseFramework/Classes/ZFCategoryFramework/CALayer+ZFPauseAimate.h"; sourceTree = "<group>"; };
-		ADFCEA39FA5C1AB0F8433E7FF4B6C02B /* ZFDownLoaderManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFDownLoaderManager.m; path = ZFBaseFramework/Classes/ZFDownLoaderFramework/ZFDownLoaderManager.m; sourceTree = "<group>"; };
-		B1BB34A73A297F391813E6C7344CE721 /* ZFFileManagerTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFFileManagerTool.m; path = ZFBaseFramework/Classes/ZFFoundationFramework/ZFFileManagerTool.m; sourceTree = "<group>"; };
 		B63F934B15BCF5CF7BCFA22FC37F37F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE76ED0BC33698A60519DE64CC76C3FC /* ZFDownLoaderManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFDownLoaderManager.h; path = ZFBaseFramework/Classes/ZFDownLoaderFramework/ZFDownLoaderManager.h; sourceTree = "<group>"; };
-		C665D31CED47AEDA840C72269185C4B7 /* Pods_ZFBaseFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZFBaseFramework_Tests.framework; path = "Pods-ZFBaseFramework_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22CD430D564A173B7B225EC2864219A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C265208964956361530FB3FC310987F3 /* CALayer+ZFPauseAimate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+ZFPauseAimate.h"; path = "ZFBaseFramework/Classes/ZFCategoryFramework/CALayer+ZFPauseAimate.h"; sourceTree = "<group>"; };
+		C665D31CED47AEDA840C72269185C4B7 /* Pods_ZFBaseFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZFBaseFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C4356F216F88D66585E71844A4E9D2 /* Pods-ZFBaseFramework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZFBaseFramework_Example-umbrella.h"; sourceTree = "<group>"; };
-		D1394D429BD826B59F32522A34741865 /* ZFBaseFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZFBaseFramework-dummy.m"; sourceTree = "<group>"; };
+		CAF5D8A2BE8023F78F8F7F5B26770429 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		D1CDF740E431A969B54652187102CC76 /* Pods-ZFBaseFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZFBaseFramework_Tests-dummy.m"; sourceTree = "<group>"; };
-		D3498CD9A6FE3C69AFE7A64240D3E506 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E08C9C5CAF60FD126A4216571896D747 /* ZFDownLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFDownLoader.m; path = ZFBaseFramework/Classes/ZFDownLoaderFramework/ZFDownLoader.m; sourceTree = "<group>"; };
-		E637E22F66139960516E6038F28AFE23 /* ZFUISegmentBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFUISegmentBar.h; path = ZFBaseFramework/Classes/ZFUISegmentBar/ZFUISegmentBar.h; sourceTree = "<group>"; };
-		E6711E7DF8D085DCF883B7B0F7BEBE31 /* NSString+ZFTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ZFTool.h"; path = "ZFBaseFramework/Classes/ZFCategoryFramework/NSString+ZFTool.h"; sourceTree = "<group>"; };
+		D54237E221FB24350049C358 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		D54237E421FB243D0049C358 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		D66F3C94A4338CD1AE66EA85A658DE60 /* ZFDownLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFDownLoader.m; path = ZFBaseFramework/Classes/ZFDownLoaderFramework/ZFDownLoader.m; sourceTree = "<group>"; };
+		DC79A640BB2EB0407F89A59E609ECA73 /* NSString+ZFTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ZFTool.h"; path = "ZFBaseFramework/Classes/ZFCategoryFramework/NSString+ZFTool.h"; sourceTree = "<group>"; };
+		DDED163063B71C921E50BEC1C9234D0F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E0559F22C3FDF53B32E68E8FC31E2544 /* ZFDownLoaderManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFDownLoaderManager.h; path = ZFBaseFramework/Classes/ZFDownLoaderFramework/ZFDownLoaderManager.h; sourceTree = "<group>"; };
+		E3C97C10837D08108CE8F57B62126C29 /* NSString+ZFTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ZFTool.m"; path = "ZFBaseFramework/Classes/ZFCategoryFramework/NSString+ZFTool.m"; sourceTree = "<group>"; };
+		E65D20E2F9C3B3EFE6C4C2FD8F4D4FEE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8CFEE1EFC90B43D1207E13CA263C279 /* ZFAudioPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFAudioPlayer.m; path = ZFBaseFramework/Classes/ZFAudioPlayerFramework/ZFAudioPlayer.m; sourceTree = "<group>"; };
 		EA1BEC2429FE105BA2E9B3F649CBE48E /* Pods-ZFBaseFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZFBaseFramework_Example.modulemap"; sourceTree = "<group>"; };
 		EA45EACF283735A8A9E9BA38E7B5AB00 /* Pods-ZFBaseFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZFBaseFramework_Tests.modulemap"; sourceTree = "<group>"; };
 		F5DD3A09D4B2E4D33772550C2B74A349 /* Pods-ZFBaseFramework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZFBaseFramework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F5F2DF327C4A0CC88A21A66FE7E4FFD3 /* ZFBaseFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZFBaseFramework-prefix.pch"; sourceTree = "<group>"; };
-		F71E367D7FF301CD365C2BE4D9A779B6 /* UIView+ZFLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ZFLayout.m"; path = "ZFBaseFramework/Classes/ZFCategoryFramework/UIView+ZFLayout.m"; sourceTree = "<group>"; };
+		FAC60B2325199DF22FFFB8EA793F5471 /* ZFDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFDeviceInfo.h; path = ZFBaseFramework/Classes/ZFFoundationFramework/ZFDeviceInfo.h; sourceTree = "<group>"; };
+		FFFAB62DF74A8D9CAFB152FFF24B232F /* ZFFileManagerTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFFileManagerTool.h; path = ZFBaseFramework/Classes/ZFFoundationFramework/ZFFileManagerTool.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		53A79D96B35EEEF3239BF9CDE294B699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54237E521FB243D0049C358 /* CoreServices.framework in Frameworks */,
+				D54237E321FB24350049C358 /* AVFoundation.framework in Frameworks */,
+				E1F064906D3A8F8F74320AC4874F0201 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5AAD898038DAABA156B8FC56537B7CA6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -129,103 +148,119 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F14173B14A77C63258F986E5275DF7E3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9B553EC36430DBFFCE1B279357E8E806 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		438FE1E6870DE955D211F2D04F82E44C /* ZFBaseFramework */ = {
+		09FBF1A02BBE18CABDFE8710265993D4 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				BB6259139D364DC01BE8576138C294F4 /* Pod */,
-				79E86AA2FF2A5929DAEBC67EC53F5A82 /* Support Files */,
-				B8B118E3D62948B17DA736F5C379C83F /* ZFCategoryFramework */,
-				8D6A07F140B95F3C04801E751BD4F419 /* ZFDownLoaderFramework */,
-				7946781CEE672C03C083CF8A600F7361 /* ZFFoundationFramework */,
-				634C105770354F7AA9E9C49E9F9A8240 /* ZFUISegmentBar */,
+				DDED163063B71C921E50BEC1C9234D0F /* LICENSE */,
+				141818C5E95131E3AF76501FF4068D68 /* README.md */,
+				2E831766CECD4339BD7B1BD154D7575E /* ZFBaseFramework.podspec */,
 			);
-			name = ZFBaseFramework;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+		0C0D6BEC733B139CB8EAFD30A7925078 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+				CAF5D8A2BE8023F78F8F7F5B26770429 /* CoreServices.framework */,
+				C22CD430D564A173B7B225EC2864219A /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		454F9DF3C5635175CC5B677CAC047C0A /* Development Pods */ = {
+		175F91D4CCA89D230189BE96A9081FD6 /* ZFAudioPlayerFramework */ = {
 			isa = PBXGroup;
 			children = (
-				438FE1E6870DE955D211F2D04F82E44C /* ZFBaseFramework */,
+				95142AEEDACA9944E75CCCD8D8FCFC84 /* ZFAudioPlayer.h */,
+				E8CFEE1EFC90B43D1207E13CA263C279 /* ZFAudioPlayer.m */,
+			);
+			name = ZFAudioPlayerFramework;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D54237E421FB243D0049C358 /* CoreServices.framework */,
+				D54237E221FB24350049C358 /* AVFoundation.framework */,
+				0C0D6BEC733B139CB8EAFD30A7925078 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FB241A7C2EBC5B019A1E68455E67470 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5025F11FED86E4B45E4AE9279A1576FB /* ZFBaseFramework */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		634C105770354F7AA9E9C49E9F9A8240 /* ZFUISegmentBar */ = {
+		5025F11FED86E4B45E4AE9279A1576FB /* ZFBaseFramework */ = {
 			isa = PBXGroup;
 			children = (
-				E637E22F66139960516E6038F28AFE23 /* ZFUISegmentBar.h */,
-				507DAA29E029BCC9D86B891CD95E9DAD /* ZFUISegmentBar.m */,
-				0EF9EC29CBCDE9C46EF01A881DD7B2AD /* ZFUISegmentBarConfig.h */,
-				025F3C0DE64EB327EE1B3CC74F142F58 /* ZFUISegmentBarConfig.m */,
+				09FBF1A02BBE18CABDFE8710265993D4 /* Pod */,
+				859F68B9512D7701E205B120CAA36BB7 /* Support Files */,
+				175F91D4CCA89D230189BE96A9081FD6 /* ZFAudioPlayerFramework */,
+				A7799491AE7366AF3EE986851A5D0C1F /* ZFCategoryFramework */,
+				BA412052D266FA026743F28D1DD5FDFA /* ZFDownLoaderFramework */,
+				95DA1F6B205D82E1AE7895B16BBECF0A /* ZFFoundationFramework */,
+				B7E367BB44F896ABEC0DB2A3CFD8478F /* ZFUISegmentBar */,
 			);
-			name = ZFUISegmentBar;
-			sourceTree = "<group>";
-		};
-		7946781CEE672C03C083CF8A600F7361 /* ZFFoundationFramework */ = {
-			isa = PBXGroup;
-			children = (
-				13931AE645BBF70153FB58E9CA909428 /* ZFDeviceInfo.h */,
-				61EE4CA616F358E688E4E671D31B0519 /* ZFDeviceInfo.m */,
-				6F63BA06B380A26A59C358E77B2C1BEE /* ZFFileManagerTool.h */,
-				B1BB34A73A297F391813E6C7344CE721 /* ZFFileManagerTool.m */,
-			);
-			name = ZFFoundationFramework;
-			sourceTree = "<group>";
-		};
-		79E86AA2FF2A5929DAEBC67EC53F5A82 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D3498CD9A6FE3C69AFE7A64240D3E506 /* Info.plist */,
-				135CDBABCC634ECBD20E8918D8CF929A /* ZFBaseFramework.modulemap */,
-				1DCDAE0EF8DDEE006F6B5EE525F58C42 /* ZFBaseFramework.xcconfig */,
-				D1394D429BD826B59F32522A34741865 /* ZFBaseFramework-dummy.m */,
-				F5F2DF327C4A0CC88A21A66FE7E4FFD3 /* ZFBaseFramework-prefix.pch */,
-				0F8C8588706460B519BB41C47126F11B /* ZFBaseFramework-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZFBaseFramework";
+			name = ZFBaseFramework;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				454F9DF3C5635175CC5B677CAC047C0A /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4FB241A7C2EBC5B019A1E68455E67470 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				F16EC44C24B6FB07D971C6A72D3014FD /* Products */,
 				A806DEA359E3F4417DE8B881808ED64F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8D6A07F140B95F3C04801E751BD4F419 /* ZFDownLoaderFramework */ = {
+		859F68B9512D7701E205B120CAA36BB7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				088860206ADC9524675DE26C7391734C /* ZFDownLoader.h */,
-				E08C9C5CAF60FD126A4216571896D747 /* ZFDownLoader.m */,
-				BE76ED0BC33698A60519DE64CC76C3FC /* ZFDownLoaderManager.h */,
-				ADFCEA39FA5C1AB0F8433E7FF4B6C02B /* ZFDownLoaderManager.m */,
+				E65D20E2F9C3B3EFE6C4C2FD8F4D4FEE /* Info.plist */,
+				80B89A6BA19662F9B31A12B8FBA6F107 /* ZFBaseFramework.modulemap */,
+				7039D19E7A97AD51E6C1271A9E335F48 /* ZFBaseFramework.xcconfig */,
+				5D093BE790A48121692027E280A9DCA1 /* ZFBaseFramework-dummy.m */,
+				36D7B8117F16B30F67FA438EBAF45434 /* ZFBaseFramework-prefix.pch */,
+				3990A1CD7911D3312923DE273541CACA /* ZFBaseFramework-umbrella.h */,
 			);
-			name = ZFDownLoaderFramework;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZFBaseFramework";
+			sourceTree = "<group>";
+		};
+		95DA1F6B205D82E1AE7895B16BBECF0A /* ZFFoundationFramework */ = {
+			isa = PBXGroup;
+			children = (
+				FAC60B2325199DF22FFFB8EA793F5471 /* ZFDeviceInfo.h */,
+				99696E53EAB14F17139468C3C7AAC8A8 /* ZFDeviceInfo.m */,
+				FFFAB62DF74A8D9CAFB152FFF24B232F /* ZFFileManagerTool.h */,
+				3FF54419683206AACAB489AF2B28991E /* ZFFileManagerTool.m */,
+			);
+			name = ZFFoundationFramework;
+			sourceTree = "<group>";
+		};
+		A7799491AE7366AF3EE986851A5D0C1F /* ZFCategoryFramework */ = {
+			isa = PBXGroup;
+			children = (
+				C265208964956361530FB3FC310987F3 /* CALayer+ZFPauseAimate.h */,
+				4BDC707148C70122A0A1E69B19737D22 /* CALayer+ZFPauseAimate.m */,
+				DC79A640BB2EB0407F89A59E609ECA73 /* NSString+ZFTool.h */,
+				E3C97C10837D08108CE8F57B62126C29 /* NSString+ZFTool.m */,
+				1698BD49BB999AD4F5E9AB24D504F834 /* UIImage+ZFImage.h */,
+				25628D8F85808622ED97B15CB686781C /* UIImage+ZFImage.m */,
+				6FD951D1A37E139B00B64A6B3C2D4978 /* UIView+ZFLayout.h */,
+				7B4EDB74CA0DF8C8253D8C3F3357D0A4 /* UIView+ZFLayout.m */,
+			);
+			name = ZFCategoryFramework;
 			sourceTree = "<group>";
 		};
 		A806DEA359E3F4417DE8B881808ED64F /* Targets Support Files */ = {
@@ -255,19 +290,15 @@
 			path = "Target Support Files/Pods-ZFBaseFramework_Example";
 			sourceTree = "<group>";
 		};
-		B8B118E3D62948B17DA736F5C379C83F /* ZFCategoryFramework */ = {
+		B7E367BB44F896ABEC0DB2A3CFD8478F /* ZFUISegmentBar */ = {
 			isa = PBXGroup;
 			children = (
-				AA2EC8DCC71EA109BF236D3AF10C0FAB /* CALayer+ZFPauseAimate.h */,
-				5756777F56B368F68631AB3DE9DB73DC /* CALayer+ZFPauseAimate.m */,
-				E6711E7DF8D085DCF883B7B0F7BEBE31 /* NSString+ZFTool.h */,
-				44F4DDB5D3879AC2DC457D1AF29CF91D /* NSString+ZFTool.m */,
-				3E0C694C49CD66539D090FDC63E4E128 /* UIImage+ZFImage.h */,
-				A3E56734C77AD673A67574BADE7969B5 /* UIImage+ZFImage.m */,
-				39B516BE61959E461E5487978D6E1A4D /* UIView+ZFLayout.h */,
-				F71E367D7FF301CD365C2BE4D9A779B6 /* UIView+ZFLayout.m */,
+				1370D4641A1C1B646F028A61F26819E4 /* ZFUISegmentBar.h */,
+				144201999621F81EE7E813980D9E2E17 /* ZFUISegmentBar.m */,
+				513473F7DE046C0F96D360D99174C009 /* ZFUISegmentBarConfig.h */,
+				9D8D179DC6432CFCDB03B29246AFDF7B /* ZFUISegmentBarConfig.m */,
 			);
-			name = ZFCategoryFramework;
+			name = ZFUISegmentBar;
 			sourceTree = "<group>";
 		};
 		B929C2268E90E0BB183626D5804E06F8 /* Pods-ZFBaseFramework_Tests */ = {
@@ -288,22 +319,15 @@
 			path = "Target Support Files/Pods-ZFBaseFramework_Tests";
 			sourceTree = "<group>";
 		};
-		BB6259139D364DC01BE8576138C294F4 /* Pod */ = {
+		BA412052D266FA026743F28D1DD5FDFA /* ZFDownLoaderFramework */ = {
 			isa = PBXGroup;
 			children = (
-				940935B9B7015E23D265113E2153ACA9 /* LICENSE */,
-				88DECFCD29BE6FF571E6AE7BDD4FC1A0 /* README.md */,
-				9EE160B9C35AF852DA14A28B0DD9FFE8 /* ZFBaseFramework.podspec */,
+				7D036D45881865EE4CE90741D3A0D6C5 /* ZFDownLoader.h */,
+				D66F3C94A4338CD1AE66EA85A658DE60 /* ZFDownLoader.m */,
+				E0559F22C3FDF53B32E68E8FC31E2544 /* ZFDownLoaderManager.h */,
+				729D13384A71F70A932F4C2A68D56C05 /* ZFDownLoaderManager.m */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				44D5347904CF754D6785B84253F2574A /* iOS */,
-			);
-			name = Frameworks;
+			name = ZFDownLoaderFramework;
 			sourceTree = "<group>";
 		};
 		F16EC44C24B6FB07D971C6A72D3014FD /* Products */ = {
@@ -319,29 +343,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3D7AB7F55D191A13BE6EC04335CDBB6C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				818C7A6F60EF36370E36D255E5B03031 /* CALayer+ZFPauseAimate.h in Headers */,
-				EF2E10E1D9AD78BBBA3B8122AB0987B9 /* NSString+ZFTool.h in Headers */,
-				9049AEF549BBDCF12693F529E85F5A1A /* UIImage+ZFImage.h in Headers */,
-				14DD495859252F13A1C064A56F22B155 /* UIView+ZFLayout.h in Headers */,
-				F1E11A75AD8834D1FC547AD3F60B3CD7 /* ZFBaseFramework-umbrella.h in Headers */,
-				3B066BA4F4DBBE153809F5FB479CD125 /* ZFDeviceInfo.h in Headers */,
-				2C23692EB913426F45C219AB0A1391A6 /* ZFDownLoader.h in Headers */,
-				2018117C5B01C20380880DBE2AF1B0AA /* ZFDownLoaderManager.h in Headers */,
-				42803C6889B913B8454C801DB5CF318D /* ZFFileManagerTool.h in Headers */,
-				E0E7EA1075FAC33E7D4FBD6AD24C5D17 /* ZFUISegmentBar.h in Headers */,
-				67EDACA6028AE88F26F2AE1C3AE133BB /* ZFUISegmentBarConfig.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4EE65E233F6587AC320406A9B1D947A9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6239A9D807203918E521B4C1444DCF3D /* Pods-ZFBaseFramework_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2993925E8E961111BF6EEFE817C87B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5DF65D1E274C46C993BFCCBF50B353 /* CALayer+ZFPauseAimate.h in Headers */,
+				A55DB0353AA2378E3126B2630059C7ED /* NSString+ZFTool.h in Headers */,
+				ACBFE6FE7B7FACC63899362236204BFA /* UIImage+ZFImage.h in Headers */,
+				16835FC93DEACFD279B91EE328E73989 /* UIView+ZFLayout.h in Headers */,
+				5F8822AD0D14240465567593E2E4606E /* ZFAudioPlayer.h in Headers */,
+				94F75FDA08B991DC44AAC6CDF2C63192 /* ZFBaseFramework-umbrella.h in Headers */,
+				3FB8CFC8330E1563ED799319A5425D76 /* ZFDeviceInfo.h in Headers */,
+				2C11578DEED768C5D03056EF77CB3A2F /* ZFDownLoader.h in Headers */,
+				18B0C9A1C91091D171E31A01203A052C /* ZFDownLoaderManager.h in Headers */,
+				50379E6394DF6F9B2C36D21A63CFD5D6 /* ZFFileManagerTool.h in Headers */,
+				AF6253637187657A9EA6D5258952C26D /* ZFUISegmentBar.h in Headers */,
+				847808B8DD5C0FC2D7B5B09E35CE81CD /* ZFUISegmentBarConfig.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,9 +385,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A9EF58DCF8D30FF0E75BA21F73EAD37 /* Build configuration list for PBXNativeTarget "ZFBaseFramework" */;
 			buildPhases = (
-				3D7AB7F55D191A13BE6EC04335CDBB6C /* Headers */,
-				9E3FBFAC92356BD6707BF511E445A63C /* Sources */,
-				F14173B14A77C63258F986E5275DF7E3 /* Frameworks */,
+				A2993925E8E961111BF6EEFE817C87B7 /* Headers */,
+				2B801F692E2F864632530D3D23A67FD9 /* Sources */,
+				53A79D96B35EEEF3239BF9CDE294B699 /* Frameworks */,
 				A597A26575482D9C20B7FA883D0FD2BA /* Resources */,
 			);
 			buildRules = (
@@ -465,21 +490,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9E3FBFAC92356BD6707BF511E445A63C /* Sources */ = {
+		2B801F692E2F864632530D3D23A67FD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3833D12715E08CB16087F01DC7E172AA /* CALayer+ZFPauseAimate.m in Sources */,
-				CD6972F9AABEFFB4C43E9CAA133C7D04 /* NSString+ZFTool.m in Sources */,
-				16ED89C06203B51780E0970389DE22FE /* UIImage+ZFImage.m in Sources */,
-				4D9AAC3C49D6AD3590213E95D7040325 /* UIView+ZFLayout.m in Sources */,
-				1775F75DFD2698D67641614CBA324206 /* ZFBaseFramework-dummy.m in Sources */,
-				00DC7C2D5A9E5A342C334FA06468D75F /* ZFDeviceInfo.m in Sources */,
-				D426E00DF6B3825312AD3BDBD67FD504 /* ZFDownLoader.m in Sources */,
-				444A2FF52C4AFFAE09C08A23DB9F4B08 /* ZFDownLoaderManager.m in Sources */,
-				F16A70C0DFC841E6C4ED711B0EFAD8EA /* ZFFileManagerTool.m in Sources */,
-				2DF449451CFF2E74FEF2A7D25B64E4FD /* ZFUISegmentBar.m in Sources */,
-				27271A169F6BBD7A5D2874B68100F951 /* ZFUISegmentBarConfig.m in Sources */,
+				EAE6D5D2E39C18AFBCF8CD78C8F1D7FB /* CALayer+ZFPauseAimate.m in Sources */,
+				740FB5C8699DA4BF932CAE4DD8E78743 /* NSString+ZFTool.m in Sources */,
+				331AF511F9E35A445CD11FF2B93950DB /* UIImage+ZFImage.m in Sources */,
+				EA3667EF8A71A2D742792DC921953484 /* UIView+ZFLayout.m in Sources */,
+				FCFB2D165A7778A9C9E17E7F4D6AA5EE /* ZFAudioPlayer.m in Sources */,
+				DB26C02BAE843B4EF851F2A0997FC3A5 /* ZFBaseFramework-dummy.m in Sources */,
+				F7DF85BF08B6BD28FE0AC30681DFB3F5 /* ZFDeviceInfo.m in Sources */,
+				B0A1B963C1667FFF03B96EFA43D210D7 /* ZFDownLoader.m in Sources */,
+				147B5F2184312C619DBEF834826036A1 /* ZFDownLoaderManager.m in Sources */,
+				46B12FADC3A9F7E8178FC920F6742094 /* ZFFileManagerTool.m in Sources */,
+				DF7B0F6CD42FB8ED7EF1F97A58CC3693 /* ZFUISegmentBar.m in Sources */,
+				2146A8326940A750D51DE657D3F9C9C7 /* ZFUISegmentBarConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,7 +612,7 @@
 		};
 		39F19F4F90C1C83F0B8CC55E28CC1105 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DCDAE0EF8DDEE006F6B5EE525F58C42 /* ZFBaseFramework.xcconfig */;
+			baseConfigurationReference = 7039D19E7A97AD51E6C1271A9E335F48 /* ZFBaseFramework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -669,8 +695,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -744,7 +769,7 @@
 		};
 		A4D5FFF73D2983B6D92EE30BBBC8DFD7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DCDAE0EF8DDEE006F6B5EE525F58C42 /* ZFBaseFramework.xcconfig */;
+			baseConfigurationReference = 7039D19E7A97AD51E6C1271A9E335F48 /* ZFBaseFramework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

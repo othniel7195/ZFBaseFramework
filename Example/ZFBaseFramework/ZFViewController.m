@@ -9,7 +9,6 @@
 #import "ZFViewController.h"
 #import <ZFBaseFramework/ZFDownLoaderManager.h>
 #import <ZFBaseFramework/ZFFileManagerTool.h>
-
 @interface ZFViewController ()
 {
     NSURL *url;

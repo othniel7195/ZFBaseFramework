@@ -6,6 +6,7 @@
 //
 
 #import "ZFFileManagerTool.h"
+#import <CoreServices/CoreServices.h>
 
 @implementation ZFFileManagerTool
 
@@ -50,4 +51,13 @@
 {
     return NSTemporaryDirectory();
 }
++ (NSString *)contentType:(NSString *)path
+{
+    NSString *fileExtension = path.pathExtension;
+    CFStringRef contentTypeC = UTTypeCreatePreferredIdentifierForTag(kUTTagClassFilenameExtension,(__bridge CFStringRef _Nonnull)(fileExtension), NULL);
+    NSString *contentType = CFBridgingRelease(contentTypeC);
+    return contentType;
+}
 @end
+
+

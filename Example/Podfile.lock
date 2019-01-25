@@ -1,9 +1,11 @@
 PODS:
   - ZFBaseFramework (0.1.1):
+    - ZFBaseFramework/ZFAudioPlayerFramework (= 0.1.1)
     - ZFBaseFramework/ZFCategoryFramework (= 0.1.1)
     - ZFBaseFramework/ZFDownLoaderFramework (= 0.1.1)
     - ZFBaseFramework/ZFFoundationFramework (= 0.1.1)
     - ZFBaseFramework/ZFUISegmentBar (= 0.1.1)
+  - ZFBaseFramework/ZFAudioPlayerFramework (0.1.1)
   - ZFBaseFramework/ZFCategoryFramework (0.1.1)
   - ZFBaseFramework/ZFDownLoaderFramework (0.1.1):
     - ZFBaseFramework/ZFCategoryFramework
@@ -20,7 +22,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZFBaseFramework: 779b7929d149e855b06f82e8dabdbe04112be60d
+  ZFBaseFramework: 588a2861bb41fc3e942c427617f2d1924b292672
 
 PODFILE CHECKSUM: 5cdb2399ddeb84b1db6c638ae9343aac3f7d75fd
 

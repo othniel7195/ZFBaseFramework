@@ -25,7 +25,8 @@
     },
     {
       "name": "ZFFoundationFramework",
-      "source_files": "ZFBaseFramework/Classes/ZFFoundationFramework/**/*"
+      "source_files": "ZFBaseFramework/Classes/ZFFoundationFramework/**/*",
+      "frameworks": "CoreServices"
     },
     {
       "name": "ZFUISegmentBar",
@@ -47,6 +48,10 @@
 
         ]
       }
+    },
+    {
+      "name": "ZFAudioPlayerFramework",
+      "source_files": "ZFBaseFramework/Classes/ZFAudioPlayerFramework/**/*"
     }
   ]
 }

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "ZFAudioPlayer.h"
 #import "CALayer+ZFPauseAimate.h"
 #import "NSString+ZFTool.h"
 #import "UIImage+ZFImage.h"
