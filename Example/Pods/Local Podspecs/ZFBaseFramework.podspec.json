@@ -1,6 +1,6 @@
 {
   "name": "ZFBaseFramework",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "个人BaseFramework",
   "description": "个人基础库，个人常用的类，有一些Category，UI，Foundation等",
   "homepage": "https://github.com/othniel7195/ZFBaseFramework",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/othniel7195/ZFBaseFramework.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "9.0"
@@ -26,7 +26,8 @@
     {
       "name": "ZFFoundationFramework",
       "source_files": "ZFBaseFramework/Classes/ZFFoundationFramework/**/*",
-      "frameworks": "CoreServices"
+      "frameworks": "CoreServices",
+      "libraries": "sqlite3"
     },
     {
       "name": "ZFUISegmentBar",
@@ -51,7 +52,8 @@
     },
     {
       "name": "ZFAudioPlayerFramework",
-      "source_files": "ZFBaseFramework/Classes/ZFAudioPlayerFramework/**/*"
+      "source_files": "ZFBaseFramework/Classes/ZFAudioPlayerFramework/**/*",
+      "frameworks": "AVFoundation"
     }
   ]
 }

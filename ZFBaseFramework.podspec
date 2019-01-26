@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZFBaseFramework'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '个人BaseFramework'
 
 # This description is used to generate tags and improve search results.
@@ -39,6 +39,7 @@ Pod::Spec.new do |s|
   s.subspec 'ZFFoundationFramework' do |ff|
     ff.source_files = 'ZFBaseFramework/Classes/ZFFoundationFramework/**/*'
     ff.frameworks = 'CoreServices'
+    ff.libraries = 'sqlite3'
   end
 
   s.subspec 'ZFUISegmentBar' do |uisb|

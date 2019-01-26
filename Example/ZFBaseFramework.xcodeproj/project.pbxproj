@@ -24,6 +24,9 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B93BBB7A21FC45FB00DC4A9E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B93BBB7921FC45FB00DC4A9E /* libsqlite3.tbd */; };
+		B93BBB7C21FC460A00DC4A9E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B93BBB7B21FC460900DC4A9E /* AVFoundation.framework */; };
+		B93BBB7E21FC7A5700DC4A9E /* ZFDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B93BBB7D21FC7A5700DC4A9E /* ZFDBTests.m */; };
 		D54237E821FB2B6B0049C358 /* ZFPlayerTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D54237E721FB2B6B0049C358 /* ZFPlayerTestViewController.m */; };
 		D54A61BA21F9958600E17BBA /* ZFDownLoadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D54A61B921F9958600E17BBA /* ZFDownLoadTests.m */; };
 /* End PBXBuildFile section */
@@ -65,6 +68,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CA235CA3E22C375D3E7FB2F /* Pods-ZFBaseFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFBaseFramework_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZFBaseFramework_Example/Pods-ZFBaseFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9F687A97DB6CC6E58117B846 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B93BBB7921FC45FB00DC4A9E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B93BBB7B21FC460900DC4A9E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B93BBB7D21FC7A5700DC4A9E /* ZFDBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFDBTests.m; sourceTree = "<group>"; };
 		CACE377C543D97D4E738B06C /* Pods-ZFBaseFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFBaseFramework_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZFBaseFramework_Example/Pods-ZFBaseFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CD46896789CB553ACD5ABABB /* Pods_ZFBaseFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZFBaseFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D54237E621FB2B6B0049C358 /* ZFPlayerTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFPlayerTestViewController.h; sourceTree = "<group>"; };
@@ -90,6 +96,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B93BBB7C21FC460A00DC4A9E /* AVFoundation.framework in Frameworks */,
+				B93BBB7A21FC45FB00DC4A9E /* libsqlite3.tbd in Frameworks */,
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -124,6 +132,8 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B93BBB7B21FC460900DC4A9E /* AVFoundation.framework */,
+				B93BBB7921FC45FB00DC4A9E /* libsqlite3.tbd */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -168,6 +178,7 @@
 			children = (
 				6003F5BB195388D20070C39A /* Tests.m */,
 				D54A61B921F9958600E17BBA /* ZFDownLoadTests.m */,
+				B93BBB7D21FC7A5700DC4A9E /* ZFDBTests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -376,6 +387,7 @@
 			files = (
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
 				D54A61BA21F9958600E17BBA /* ZFDownLoadTests.m in Sources */,
+				B93BBB7E21FC7A5700DC4A9E /* ZFDBTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,17 +1,17 @@
 PODS:
-  - ZFBaseFramework (0.1.1):
-    - ZFBaseFramework/ZFAudioPlayerFramework (= 0.1.1)
-    - ZFBaseFramework/ZFCategoryFramework (= 0.1.1)
-    - ZFBaseFramework/ZFDownLoaderFramework (= 0.1.1)
-    - ZFBaseFramework/ZFFoundationFramework (= 0.1.1)
-    - ZFBaseFramework/ZFUISegmentBar (= 0.1.1)
-  - ZFBaseFramework/ZFAudioPlayerFramework (0.1.1)
-  - ZFBaseFramework/ZFCategoryFramework (0.1.1)
-  - ZFBaseFramework/ZFDownLoaderFramework (0.1.1):
+  - ZFBaseFramework (0.1.2):
+    - ZFBaseFramework/ZFAudioPlayerFramework (= 0.1.2)
+    - ZFBaseFramework/ZFCategoryFramework (= 0.1.2)
+    - ZFBaseFramework/ZFDownLoaderFramework (= 0.1.2)
+    - ZFBaseFramework/ZFFoundationFramework (= 0.1.2)
+    - ZFBaseFramework/ZFUISegmentBar (= 0.1.2)
+  - ZFBaseFramework/ZFAudioPlayerFramework (0.1.2)
+  - ZFBaseFramework/ZFCategoryFramework (0.1.2)
+  - ZFBaseFramework/ZFDownLoaderFramework (0.1.2):
     - ZFBaseFramework/ZFCategoryFramework
     - ZFBaseFramework/ZFFoundationFramework
-  - ZFBaseFramework/ZFFoundationFramework (0.1.1)
-  - ZFBaseFramework/ZFUISegmentBar (0.1.1):
+  - ZFBaseFramework/ZFFoundationFramework (0.1.2)
+  - ZFBaseFramework/ZFUISegmentBar (0.1.2):
     - ZFBaseFramework/ZFCategoryFramework
 
 DEPENDENCIES:
@@ -22,7 +22,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZFBaseFramework: 588a2861bb41fc3e942c427617f2d1924b292672
+  ZFBaseFramework: 68b1ce949dea89d953cfeab9780eeab38062f560
 
 PODFILE CHECKSUM: 5cdb2399ddeb84b1db6c638ae9343aac3f7d75fd
 

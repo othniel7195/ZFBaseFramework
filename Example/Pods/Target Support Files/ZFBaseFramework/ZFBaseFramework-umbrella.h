@@ -19,6 +19,7 @@
 #import "ZFDownLoaderManager.h"
 #import "ZFDeviceInfo.h"
 #import "ZFFileManagerTool.h"
+#import "ZFSqliteTool.h"
 #import "ZFUISegmentBar.h"
 #import "ZFUISegmentBarConfig.h"
 
