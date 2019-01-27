@@ -2,19 +2,19 @@ PODS:
   - Realm (3.13.1):
     - Realm/Headers (= 3.13.1)
   - Realm/Headers (3.13.1)
-  - ZFBaseFramework (0.1.2):
-    - ZFBaseFramework/ZFAudioPlayerFramework (= 0.1.2)
-    - ZFBaseFramework/ZFCategoryFramework (= 0.1.2)
-    - ZFBaseFramework/ZFDownLoaderFramework (= 0.1.2)
-    - ZFBaseFramework/ZFFoundationFramework (= 0.1.2)
-    - ZFBaseFramework/ZFUISegmentBar (= 0.1.2)
-  - ZFBaseFramework/ZFAudioPlayerFramework (0.1.2)
-  - ZFBaseFramework/ZFCategoryFramework (0.1.2)
-  - ZFBaseFramework/ZFDownLoaderFramework (0.1.2):
+  - ZFBaseFramework (0.1.3):
+    - ZFBaseFramework/ZFAudioPlayerFramework (= 0.1.3)
+    - ZFBaseFramework/ZFCategoryFramework (= 0.1.3)
+    - ZFBaseFramework/ZFDownLoaderFramework (= 0.1.3)
+    - ZFBaseFramework/ZFFoundationFramework (= 0.1.3)
+    - ZFBaseFramework/ZFUISegmentBar (= 0.1.3)
+  - ZFBaseFramework/ZFAudioPlayerFramework (0.1.3)
+  - ZFBaseFramework/ZFCategoryFramework (0.1.3)
+  - ZFBaseFramework/ZFDownLoaderFramework (0.1.3):
     - ZFBaseFramework/ZFCategoryFramework
     - ZFBaseFramework/ZFFoundationFramework
-  - ZFBaseFramework/ZFFoundationFramework (0.1.2)
-  - ZFBaseFramework/ZFUISegmentBar (0.1.2):
+  - ZFBaseFramework/ZFFoundationFramework (0.1.3)
+  - ZFBaseFramework/ZFUISegmentBar (0.1.3):
     - ZFBaseFramework/ZFCategoryFramework
 
 DEPENDENCIES:
@@ -31,8 +31,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Realm: 50071da38fe079e0735e47c9f2eae738c68c5996
-  ZFBaseFramework: 68b1ce949dea89d953cfeab9780eeab38062f560
+  ZFBaseFramework: 20288e33fb48a1e98ef744a0a839398fd8daba60
 
-PODFILE CHECKSUM: dfa98218f43e56795b834ef7bbb164210b394db1
+PODFILE CHECKSUM: c71577901628286be5852f98512a90489a8678f7
 
 COCOAPODS: 1.5.3
