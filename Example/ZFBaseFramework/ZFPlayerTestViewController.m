@@ -8,6 +8,7 @@
 
 #import "ZFPlayerTestViewController.h"
 #import <ZFBaseFramework/ZFAudioPlayer.h>
+#import <Realm/Realm.h>
 
 @interface ZFPlayerTestViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *showTime;

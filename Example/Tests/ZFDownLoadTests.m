@@ -7,8 +7,6 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "ZFDownLoader.h"
-
 @interface ZFDownLoadTests : XCTestCase
 
 @end

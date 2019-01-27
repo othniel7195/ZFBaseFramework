@@ -6,11 +6,12 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'ZFBaseFramework_Example' do
+  
   pod 'ZFBaseFramework', :path => '../'
+  pod 'Realm', '~> 3.13.1'
+  
 
   target 'ZFBaseFramework_Tests' do
     inherit! :search_paths
-
-    
   end
 end

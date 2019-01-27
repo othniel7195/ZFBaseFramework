@@ -27,6 +27,8 @@
 		B93BBB7A21FC45FB00DC4A9E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B93BBB7921FC45FB00DC4A9E /* libsqlite3.tbd */; };
 		B93BBB7C21FC460A00DC4A9E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B93BBB7B21FC460900DC4A9E /* AVFoundation.framework */; };
 		B93BBB7E21FC7A5700DC4A9E /* ZFDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B93BBB7D21FC7A5700DC4A9E /* ZFDBTests.m */; };
+		B93BBBEB21FDE49200DC4A9E /* ZFRealmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B93BBBEA21FDE49200DC4A9E /* ZFRealmTests.m */; };
+		B93BBBEE21FDE6D900DC4A9E /* ZFStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = B93BBBED21FDE6D900DC4A9E /* ZFStudent.m */; };
 		D54237E821FB2B6B0049C358 /* ZFPlayerTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D54237E721FB2B6B0049C358 /* ZFPlayerTestViewController.m */; };
 		D54A61BA21F9958600E17BBA /* ZFDownLoadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D54A61B921F9958600E17BBA /* ZFDownLoadTests.m */; };
 /* End PBXBuildFile section */
@@ -71,6 +73,9 @@
 		B93BBB7921FC45FB00DC4A9E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		B93BBB7B21FC460900DC4A9E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B93BBB7D21FC7A5700DC4A9E /* ZFDBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFDBTests.m; sourceTree = "<group>"; };
+		B93BBBEA21FDE49200DC4A9E /* ZFRealmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFRealmTests.m; sourceTree = "<group>"; };
+		B93BBBEC21FDE6D900DC4A9E /* ZFStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFStudent.h; sourceTree = "<group>"; };
+		B93BBBED21FDE6D900DC4A9E /* ZFStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFStudent.m; sourceTree = "<group>"; };
 		CACE377C543D97D4E738B06C /* Pods-ZFBaseFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFBaseFramework_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZFBaseFramework_Example/Pods-ZFBaseFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CD46896789CB553ACD5ABABB /* Pods_ZFBaseFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZFBaseFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D54237E621FB2B6B0049C358 /* ZFPlayerTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFPlayerTestViewController.h; sourceTree = "<group>"; };
@@ -154,6 +159,8 @@
 				6003F5A6195388D20070C39A /* ZFViewController.m */,
 				D54237E621FB2B6B0049C358 /* ZFPlayerTestViewController.h */,
 				D54237E721FB2B6B0049C358 /* ZFPlayerTestViewController.m */,
+				B93BBBEC21FDE6D900DC4A9E /* ZFStudent.h */,
+				B93BBBED21FDE6D900DC4A9E /* ZFStudent.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -179,6 +186,7 @@
 				6003F5BB195388D20070C39A /* Tests.m */,
 				D54A61B921F9958600E17BBA /* ZFDownLoadTests.m */,
 				B93BBB7D21FC7A5700DC4A9E /* ZFDBTests.m */,
+				B93BBBEA21FDE49200DC4A9E /* ZFRealmTests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -356,10 +364,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ZFBaseFramework_Example/Pods-ZFBaseFramework_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/ZFBaseFramework/ZFBaseFramework.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZFBaseFramework.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,6 +386,7 @@
 			files = (
 				6003F59E195388D20070C39A /* ZFAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZFViewController.m in Sources */,
+				B93BBBEE21FDE6D900DC4A9E /* ZFStudent.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				D54237E821FB2B6B0049C358 /* ZFPlayerTestViewController.m in Sources */,
 			);
@@ -386,6 +397,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				B93BBBEB21FDE49200DC4A9E /* ZFRealmTests.m in Sources */,
 				D54A61BA21F9958600E17BBA /* ZFDownLoadTests.m in Sources */,
 				B93BBB7E21FC7A5700DC4A9E /* ZFDBTests.m in Sources */,
 			);
@@ -514,7 +526,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}/**";
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}/** ${SRCROOT}/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -531,7 +543,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}/**";
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}/** ${SRCROOT}/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -546,6 +558,7 @@
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/ZFBaseFramework\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Realm\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
@@ -555,12 +568,16 @@
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				OTHER_LDFLAGS = (
+					"$(inherited)",
 					"-framework",
 					"\"ZFBaseFramework\"",
+					"-framework",
+					"\"Realm\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZFBaseFramework_Example.app/ZFBaseFramework_Example";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -574,17 +591,22 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Realm\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				OTHER_LDFLAGS = (
+					"$(inherited)",
 					"-framework",
 					"\"ZFBaseFramework\"",
+					"-framework",
+					"\"Realm\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZFBaseFramework_Example.app/ZFBaseFramework_Example";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;

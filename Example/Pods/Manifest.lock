@@ -1,4 +1,7 @@
 PODS:
+  - Realm (3.13.1):
+    - Realm/Headers (= 3.13.1)
+  - Realm/Headers (3.13.1)
   - ZFBaseFramework (0.1.2):
     - ZFBaseFramework/ZFAudioPlayerFramework (= 0.1.2)
     - ZFBaseFramework/ZFCategoryFramework (= 0.1.2)
@@ -15,15 +18,21 @@ PODS:
     - ZFBaseFramework/ZFCategoryFramework
 
 DEPENDENCIES:
+  - Realm (~> 3.13.1)
   - ZFBaseFramework (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Realm
 
 EXTERNAL SOURCES:
   ZFBaseFramework:
     :path: "../"
 
 SPEC CHECKSUMS:
+  Realm: 50071da38fe079e0735e47c9f2eae738c68c5996
   ZFBaseFramework: 68b1ce949dea89d953cfeab9780eeab38062f560
 
-PODFILE CHECKSUM: 5cdb2399ddeb84b1db6c638ae9343aac3f7d75fd
+PODFILE CHECKSUM: dfa98218f43e56795b834ef7bbb164210b394db1
 
 COCOAPODS: 1.5.3
